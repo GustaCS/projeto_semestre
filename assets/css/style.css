@@ -16,16 +16,22 @@ header{
     padding-top: 5rem;
     padding-left: 9.2rem;
     background-image:url("../image/hero.jpg");
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-img{
-    width:4vw;
-    margin-left: 2rem;}
+
+:root{
+    --text-primary:#FFF;
+    --font-heading:'Poppins';
+    --font-default:'Monrserat';
+}
+
 h1{
     font-size: 6rem;
     font-weight: 900;
-    color: #FFF;
-    font-family: 'Poppins';
+    color: var(--text-primary);
+    font-family: var(--font-default);
     padding-left: 2rem;
 
 
@@ -34,19 +40,125 @@ h2{
     font-size: 1.9rem;
     font-weight: bold;
     color: #FFF;
-    width: 20vw;
-    margin-left: 2rem;
 }
 
 a{text-decoration: none;
 color: #A54119;
-font-size: 4rem;}
+font-size: 200rem;}
 
-p{
+span{
+    font-family:'Montserrat';
+    font-size: 4rem;
+    color: #fff;
+}
+
+.ball{
+    width: 4vw;
+    float: left;
+}
+
+.text_hero{
+    width: 26.5vw;
+    height: 25vh;
+    margin-left: 2rem;
+}
+.times2{
+    margin-left: 2rem;
     font-size: 2rem;
-    color: #FFF;
-    font-family: 'Poppins';
-    font-weight: bold;
-    margin-left: 3rem;
+}
+a{
+    font-size: 4rem;
+}
+#botao_inicial{
+    width: 28vw;
+
+}
+.button{
+    font-size: 2rem;
+    float: left;
+    padding-top:1.5rem;
+}
+.space{
     margin-top: 2rem;
+}
+#equipe{
+    font-size: 5rem ;
+}
+
+#times{
+    height: 100vh;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-left: 9.2rem;
+    background-color: black;
+}
+
+#historia{
+    height: 100vh;
+    background-size: cover;
+    background-image:url("../image/hero_inverso.jpg");
+}
+.blur{
+    background-color: rgba(0, 0, 0, 0.272);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+}
+
+#imagem_logos{
+    background-color: red;
+    width: 85vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    height: 20vh;
+    margin-left: 3rem;
+    margin-top: 15rem;
+}
+
+.teste{
+    color: #fff;
+
+}
+.teste *{
+    color: #FFF;
+}
+.next{
+    padding-left: 80rem;
+    margin-top: 5rem;
+    height: 8vh;
+}
+.next *{
+    color: #FFF;
+}
+.next1{
+    margin-top: 3rem;
+    margin-left: 4rem;
+    height: 8vh;
+    border-style:solid;
+    border-color: #A54119;
+    border-radius: 10%;
+}
+.history_title{
+    float:right;
+    margin-right: 2rem;
+}
+
+.history_left{
+    margin-right: 2rem;
+    float: right;
+    padding-left: 70rem;
+    padding-top: 2rem;
+    font-size:2.4rem;
+
+}
+
+.history_right{
+    float: left;
+    padding-left: 2rem;
+    padding-right: 70rem;
+    font-size:2.4rem;
 }
