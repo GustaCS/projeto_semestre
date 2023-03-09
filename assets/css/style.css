@@ -81,17 +81,6 @@ a{
 .space{
     margin-top: 2rem;
 }
-#equipe{
-    font-size: 5rem ;
-}
-
-#times{
-    height: 100vh;
-    background-size: cover;
-    padding-top: 5rem;
-    padding-left: 9.2rem;
-    background-color: black;
-}
 
 #historia{
     height: 100vh;
@@ -103,36 +92,6 @@ a{
     backdrop-filter: blur(10px);
     width: 100%;
     height: 100vh;
-}
-
-#imagem_logos{
-    background-color: red;
-    width: 85vw;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-
-}
-.logo{
-    height: 20vh;
-    margin-left: 3rem;
-    margin-top: 15rem;
-}
-
-.teste{
-    color: #fff;
-
-}
-.teste *{
-    color: #FFF;
-}
-.next{
-    padding-left: 80rem;
-    margin-top: 5rem;
-    height: 8vh;
-}
-.next *{
-    color: #FFF;
 }
 .next1{
     margin-top: 3rem;
@@ -161,4 +120,76 @@ a{
     padding-left: 2rem;
     padding-right: 70rem;
     font-size:2.4rem;
+}
+
+
+/*classes da tela times*/
+#times{
+    height: 100vh;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-left: 9.2rem;
+    background-color: black;
+}
+
+#equipe{
+    font-size: 5rem ;
+}
+
+#imagem_logos{
+    height: 75vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+#imagem_logos div{
+    width: 18vw;
+    height: 35vh;
+    margin-left: 1.4rem;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}   
+
+/*times*/
+
+.miami{
+    background-image: url('../image/miami.png');
+}
+.warriors{
+    background-image: url('../image/warriors.png');
+}
+.denver{
+    background-image: url('../image/denver.png');
+}
+.nets{
+    background-image: url('../image/nets.png');
+}
+.lakers{
+    background-image: url('../image/lakers.png');
+    background-size: 27rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.bucks{
+    background-image: url('../image/bucks.png');
+}
+
+.knicks{
+    background-image: url('../image/knicks.png');
+}
+.philladelfia{
+    background-image: url('../image/76ers.png');
+
+}
+.next{
+    padding-left: 80rem;
+    height: 8vh;
+}
+.next *{
+    color: #FFF;
 }
