@@ -15,10 +15,34 @@ header{
     background-size: cover;
     padding-top: 5rem;
     padding-left: 9.2rem;
-    background-image:url("../image/hero.jpg");
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;    
+    overflow: hidden;
+    position: relative;
+}
+
+header::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image:url("../image/hero.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    animation: zoom 10s;
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 :root{
@@ -78,6 +102,10 @@ a{
     float: left;
     padding-top:1.5rem;
 }
+.button:hover{
+    
+}
+
 .space{
     margin-top: 2rem;
 }
@@ -101,6 +129,13 @@ a{
     border-color: #A54119;
     border-radius: 10%;
 }
+.next1:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 20px #FFF;
+    background-color: #FFF;
+    transition: 1s;
+}
+
 .history_title{
     float:right;
     margin-right: 2rem;
