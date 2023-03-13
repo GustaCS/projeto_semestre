@@ -173,7 +173,7 @@ a{
 
 #imagem_logos{
     height: 75vh;
-
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -193,32 +193,150 @@ a{
 /*times*/
 
 .miami{
-    background-image: url('../image/miami.png');
+background-image: url('../image/miami.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
+.container:hover .card{
+    transform: rotateY(180deg);
+}
+.camisa_miami{
+    background-image: url('../image/camisa_heat.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.camisa_warriors{
+    background-image: url('../image/camisa_warriors.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.camisa_nets{
+    background-image: url('../image/camisa_nets.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.camisa_denver{
+    background-image: url('../image/camisa_denver.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.camisa_lakers{
+    background-image: url('../image/camisa_lakers.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.camisa_bucks{
+    background-image: url('../image/camisa_bucks.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.camisa_knicks{
+    background-image: url('../image/camisa_knicks.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.camisa_philadelphia{
+    background-image: url('../image/camisa_philadelphia.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
 .warriors{
     background-image: url('../image/warriors.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 .denver{
     background-image: url('../image/denver.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 .nets{
     background-image: url('../image/nets.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 .lakers{
     background-image: url('../image/lakers.png');
     background-size: 27rem;
     background-repeat: no-repeat;
     background-position: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 .bucks{
     background-image: url('../image/bucks.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 
 .knicks{
     background-image: url('../image/knicks.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
-.philladelfia{
+.philadelphia{
     background-image: url('../image/76ers.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 
 }
 .next{
@@ -228,3 +346,5 @@ a{
 .next *{
     color: #FFF;
 }
+
+/*css para card de escduo-camisa*/
