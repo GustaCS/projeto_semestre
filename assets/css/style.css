@@ -347,5 +347,116 @@ background-image: url('../image/miami.png');
 .next *{
     color: #FFF;
 }
+/*hall of fame*/
+#hall_fame{
+    height: 100vh;
+    background-size: cover;
+    background-image:url("../image/hall_fame.jpg");
+}
+#fame{
+    width: 134rem;
+    height: 75%;
+    margin-left: 4rem;
+    flex-wrap: wrap;
+}
+.image_hall_fame{
+    width: 20vw;
+    height: 37vh;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    float: left;
+    position: relative;
+}
+#fame:hover .image_hall_fame:not(:hover){
+    transform: scale(.9);
+} 
 
-/*css para card de escduo-camisa*/
+#fame:hover>.image_hall_fame:not(:hover){
+    filter: brightness(.5) saturate(0) contrast(1.2) blur(0.1rem);
+} 
+.text_fame_box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20rem;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+  }
+
+.image_hall_fame:hover .text_fame_box{
+    opacity: 1;
+}
+
+.text_hall_fame{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image_hall_fame:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.fame_image{
+    width: 100%;
+    height: 80%;
+}
+
+.jordan{
+    background-image: url('../image/jordan.jpg');
+    background-size: cover;
+}
+.lebron{
+    background-image: url('../image/lebron.jpg');
+    background-size: cover;  
+}
+.kobe{
+    background-image: url('../image/kobe.jpg');
+    background-size: cover;  
+}
+
+.kareen{
+    background-image: url('../image/kareen.jpg');
+    background-size: cover;  
+}
+.lary{
+    background-image: url('../image/lary.png');
+    background-size: cover;  
+}
+.magic{
+    background-image: url('../image/magic.jpeg');
+    background-size: cover;  
+}
+
+.shaq{
+    background-image: url('../image/shaq.jpg');
+    background-size: cover;  
+}
+.bill{
+    background-image: url('../image/bill.jpg');
+    background-size: cover;  
+}
+
+
+
+.fame_title{
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-family:'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
