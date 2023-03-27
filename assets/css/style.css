@@ -417,36 +417,52 @@ background-image: url('../image/miami.png');
 .jordan{
     background-image: url('../image/jordan.jpg');
     background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 .lebron{
     background-image: url('../image/lebron.jpg');
     background-size: cover;  
+    background-position-x: center;
+    background-position-y: center;
 }
 .kobe{
     background-image: url('../image/kobe.jpg');
-    background-size: cover;  
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .kareen{
     background-image: url('../image/kareen.jpg');
-    background-size: cover;  
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 .lary{
     background-image: url('../image/lary.png');
-    background-size: cover;  
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;  
 }
 .magic{
     background-image: url('../image/magic.jpeg');
-    background-size: cover;  
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .shaq{
     background-image: url('../image/shaq.jpg');
-    background-size: cover;  
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;  
 }
 .bill{
     background-image: url('../image/bill.jpg');
-    background-size: cover;  
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center; 
 }
 
 
