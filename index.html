@@ -220,21 +220,60 @@
     <section id="section-budged">
         <form action="#">
             <h3>Orçamento</h3>
-            <label for="qtde">Qtde de paginas</label>
-            <input type="number" id="qtde" min="1" value="1">
-            <label for="js">Precisa de JS?</label>
-            <input type="checkbox" id="js">
-            <label for="radio">precisa de layout?</label>
+            <h2 for="radio">Escolha qual time sera o uniforme </h2>
             <div>
-                <input type="radio" id="layout-sim" name="layout">
-                <label for="layout-sim">sim,preciso</label>
-                <input type="radio" id ="layout-nao" name="layout">
-                <label for="layout-nao">nao,ja tenho</label>
+                <input type="radio" id="rdCavs" name="img_compra" value="Cleveland Cavaliers">
+                <label for="layout-sim">Cleveland</label>
+                <input type="radio" id ="rdMiami" name="img_compra" value="Miami Heat">
+                <label for="layout-nao">Miami</label>
+                <input type="radio" id ="rdDenver" name="img_compra" value="Denver Nuggets">
+                <label for="layout-nao">Denver</label>
+                <input type="radio" id ="rdBoston" name="img_compra" value="Boston Celtics">
+                <label for="layout-nao">Boston</label>
+                <input type="radio" id ="rdGolden" name="img_compra" value="Golden State">
+                <label for="layout-nao">Golden State</label>
             </div>
-            <label for="prazo">Prazo</label>
-            <input type="range" id="prazo" max="10">
-            <output id="preco">R$ 100,00</output>
+            <h2 for="qtde">Qtde de uniformes</h2>
+            <input type="number" id="qtde" min="1" value="1">
+            <h2 for="js">quer personalizar?</h2>
+            <div>
+                <input type="radio" id="p_sim" name="tipo_camisa" value="Sim">
+                <label for="js">sim</label>
+                <input type="radio" id="p_nao" name="tipo_camisa" value="Não">
+                <label for="js">nao</label>
+            </div>
+            <h2 for="qtde">nome na camisa</h2>
+            <input type="text" id="nome_camisa" disabled=true>
+            <h2 for="prazo">prazo</h2>
+            <input type="range" id="prazo" min="1" max="5">
+            <h2 for="tamanho">tamanho</h2>
+            <input type="range" id="tamanho_input" min="1" max="5">
+            <output><button id="button_compra">Pedir uniforme</button></output>
         </form>
+        <div id="tes">
+            <h2>Detalhes do Pedido</h2>
+            <div class="image_form"></div>
+            <div id="infos_form">
+                <h3>time: </h3>
+                <p id="time_final">cavs</p>
+                <h3>Qtd de uniformes: </h3>
+                <p id="qtdProd">a</p>
+                <h3>personalisado: </h3>
+                <p id="prod_status">Não</p>
+                <h3>nome na camisa: </h3>
+                <p id="camisa">Gustavo</p>
+                <h3>tempo de entrega: </h3>
+                <p id="tempo_entrega">2 semanas</p>
+                <h3>tamanho: </h3>
+                <p id="tamanho_entrega">GG</p>
+            </div>
+            <div id="valor">
+                <p id="price">Preço: R$0,00</p>
+            </div>
+
+
+                <!--<label for="aa" id="preco">r$100,00</label>-->
+            </div>
     </section>
 <script src="./assets/js/script.js"></script>
 </body>
