@@ -7,308 +7,314 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
+    <script src="./assets/js/loader.js"></script>
 </head>
 <body>
-    <nav>
-        <div id="menu_principal">
-            <div class="linha"></div>
-            <div class="linha"></div>
-            <div class="linha"></div>
-        </div>
-        <ul id="menu_conteudo" class="menu_show">
-            <li>
-                <a href="#">
-                    <i class="fa-solid fa-house"></i>
-                    Home
+    <div class="loader">
+        <div class="spin"></div>
+    </div>
+    <main class="hide">
+        <nav>
+            <div id="menu_principal">
+                <div class="linha"></div>
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </div>
+            <ul id="menu_conteudo" class="menu_show">
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-basketball"></i>
+                        Times
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-trophy"></i>
+                        hall of fame
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-money-bill"></i>
+                        compra
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    <i class="fa-solid fa-basketball"></i>
-                    Times
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-solid fa-trophy"></i>
-                    hall of fame
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-solid fa-money-bill"></i>
-                    compra
-            </a>
-        </li>
-        </ul>
-    </nav>
-    <header>
-        <h1 >National</h1>
-        <h1 >Basketball</h1>
-        <h1 >Association</h1>
-        <section class="text_hero">
-            <h2>Principal liga de basquetebol profissional da América do Norte.Com 30 franquias a NBA também é considerada a principal liga de basquete do mundo e seus jogadores são os atletas mais bem pagos do  mundo, por salário médio anual.
-            </h2>
-        </section>
-        <h1 class="space times2">Veja os times favoritos de 2023</h1>
-        <section class="next1">
-            <img src="./assets/image/ball.png" alt="" class="ball">
-            <a href="#">Clique Aqui</a>
-        </section>
-        </section>
-    </header>
-    <!--estrutura da tela de timesx-->
-    <section id="times">
-        <h1 id="equipe">Principais equipes</h1>
-        <section id="imagem_logos">
-            <div class="container">
-                <div class="card">
-                    <div class="miami"></div>
-                    <div class="camisa_miami"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <div class="warriors"></div>
-                    <div class="camisa_warriors"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <div class="denver"></div>
-                    <div class="camisa_denver"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <div class="nets"></div>
-                    <div class="camisa_nets"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <div class="lakers"></div>
-                    <div class="camisa_lakers"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <div class="bucks"></div>
-                    <div class="camisa_bucks"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <div class="knicks"></div>
-                    <div class="camisa_knicks"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <div class="philadelphia "></div>
-                    <div class="camisa_philadelphia"></div>
-                </div>
-            </div>
-
-        </section>
-        <section class="next">
-            <img src="./assets/image/bola-de-basquete.png" alt="" class="ball">
-            <a href="#">Próxima página</a>
-        </section>
-    </section>
-    <!--historia da nba-->
-    <section id="historia">
-        <section  class="blur">
-            <h1 class="history_title">História da NBA</h1>
-            <!--ESQUERDA-->
-            <h2 class="history_left">A NBA foi fundada em 1946. Em sua primeira versão, a liga era chamada Basketball Association of America (BAA) e contava com 11 times: Boston Celtics, Chicago Stags, Cleveland Rebels, Detroit Falcons, New York Knickerbockers, Philadelphia Warriors, Pittsburgh Ironmen, Providence Steamrollers, St Louis Bombers, Toronto Huskies e Washington Capitols.</h2>
-            <!--DIREITA-->
-            <h2 class="history_right">A primeira partida da história da NBA foi disputada em 1º de novembro de 1946, em Ontario, no Canadá, entre Toronto Huskies e New York Knicks.Já o primeiro campeão da liga foi o Philadelphia Warriors, com vitória sobre o Chicago Stags por 4 a 1 na série decisiva.</h2>
-            <!--ESQUERDA-->
-            <h2 class="history_left">Apenas em 1949, a liga passou a ser chamada National Basketball Association (NBA), depois de a BBA absorver equipes de outra liga de basquete dos Estados Unidos, a National Basketball League (NBL).</h2>
-            <!--DIREITA-->
-            <h2 class="history_right">A nova liga contava com 17 franquias, mas o número de participantes foi reduzido, até chegar a 8 na temporada 1953/1954: New York Knicks, Boston Celtics, Philadelphia Warriors, Minneapolis Lakers, Rochester Royals, Fort Wayne Pistons, Tri-Cities Blackhawks e Syracuse Nationals. Todas essas franquias seguem na NBA, ainda que só New York Knicks e Boston Celtics sigam na mesma sede.</h2>
-            <!--ESQUERDA-->
-            <h2 class="history_left">Durante as décadas seguintes, a NBA passou por fases de expansão, até chegar ao formato atual, com 30 franquias.</h2>
-        </section>
-    </section>
-    <section id="hall_fame">
-        <section class="blur">
-            <h1>Hall of Fame</h1>
-            <div id="fame">
-                <div class="image_hall_fame">
-                    <div class="fame_image jordan"></div>
-                    <div class="fame_title">Michael Jordan</div>
-                    <div class="text_fame_box">
-                        <div class="text_hall_fame">
-                            <h2>Time: Chicargo Bulls</h2>
-                            <h2>Titulos: 6</h2>
-                            <h2>Anos: 1991, 1992, 1993, 1996, 1997 e 1998</h2>
-                            <h2>MVP: 5</h2>
-                            <h2> MVP das finais: 6</h2>
-                            <h2>Medalhas de ouro: 2</h2>
-                            <h2>Defensor do ano: 1 (1998)</h2>
-                        </div>
+            </ul>
+        </nav>
+        <header>
+            <h1 >National</h1>
+            <h1 >Basketball</h1>
+            <h1 >Association</h1>
+            <section class="text_hero">
+                <h2>Principal liga de basquetebol profissional da América do Norte.Com 30 franquias a NBA também é considerada a principal liga de basquete do mundo e seus jogadores são os atletas mais bem pagos do  mundo, por salário médio anual.
+                </h2>
+            </section>
+            <h1 class="space times2">Veja os times favoritos de 2023</h1>
+            <section class="next1">
+                <img src="./assets/image/ball.png" alt="" class="ball">
+                <a href="#">Clique Aqui</a>
+            </section>
+            </section>
+        </header>
+        <!--estrutura da tela de timesx-->
+        <section id="times">
+            <h1 id="equipe">Principais equipes</h1>
+            <section id="imagem_logos">
+                <div class="container">
+                    <div class="card">
+                        <div class="miami"></div>
+                        <div class="camisa_miami"></div>
                     </div>
                 </div>
-                <div class="image_hall_fame">
-                    <div class="fame_image lebron"></div>
-                    <div class="fame_title">Lebron James</div>
-                    <div class="text_fame_box">
-                        <div class="text_hall_fame">
-                            <h2>Time: Cleveland Cavaliers</h2>
-                            <h2>Titulos: 4</h2>
-                            <h2>Anos: 2012,2013,2016 e 2020</h2>
-                            <h2> MVP: 4</h2>
-                            <h2> MVP das Finais: 4</h2>
-                            <h2>Medalhas de ouro: 2</h2>
-                            <h2>Maior Pontuador da liga</h2>
-                        </div>
-                    </div>   
+                <div class="container">
+                    <div class="card">
+                        <div class="warriors"></div>
+                        <div class="camisa_warriors"></div>
+                    </div>
                 </div>
-                <div class="image_hall_fame">
-                    <div class="fame_image kobe"></div>
-                    <div class="fame_title">Kobe Bryant</div>
-                    <div class="text_fame_box">
-                        <div class="text_hall_fame">
-                            <h2>Time: Los Angeles Lakers</h2>
-                            <h2>Titulos: 5</h2>
-                            <h2>Anos: 2000, 2001, 2002, 2009 e 2010</h2>
-                            <h2>MVP:1</h2>
-                            <h2> MVP das finais: 2 (2009 e 2010)</h2>
-                            <h2>Medalhas de ouro: 2</h2>
-                        </div>
-                    </div>  
+                <div class="container">
+                    <div class="card">
+                        <div class="denver"></div>
+                        <div class="camisa_denver"></div>
+                    </div>
                 </div>
-                <div class="image_hall_fame">
-                    <div class="fame_image kareen"></div>
-                    <div class="fame_title">Kareem Abdul Jabbar</div>
-                    <div class="text_fame_box">
-                        <div class="text_hall_fame">
-                            <h2>Time: Los Angeles LAkers</h2>
-                            <h2>Titulos: 5</h2>
-                            <h2>Anos: 1971,1980, 1982, 1985 e 1987</h2>
-                            <h2>MVP: 6</h2>
-                            <h2> MVP das finais: 2</h2>
-                            <h2>All-Star: 19</h2>
-                        </div>
-                    </div>  
+                <div class="container">
+                    <div class="card">
+                        <div class="nets"></div>
+                        <div class="camisa_nets"></div>
+                    </div>
                 </div>
-                <div class="image_hall_fame">
-                    <div class="fame_image lary"></div>
-                    <div class="fame_title">Lary Bird</div>
-                    <div class="text_fame_box">
-                        <div class="text_hall_fame">
-                            <h2>Time: Boston Celtics</h2>
-                            <h2>Titulos: 3</h2>
-                            <h2>Anos: 1981, 1984 e 1986</h2>
-                            <h2>MVP: 3</h2>
-                            <h2> MVP das finais: 2</h2>
-                            <h2>Medalha de ouro: 1</h2>
-                        </div>
-                    </div>  
+                <div class="container">
+                    <div class="card">
+                        <div class="lakers"></div>
+                        <div class="camisa_lakers"></div>
+                    </div>
                 </div>
-                <div class="image_hall_fame">
-                    <div class="fame_image magic"></div>
-                    <div class="fame_title">Magic Johnson</div>
-                    <div class="text_fame_box">
-                        <div class="text_hall_fame">
-                            <h2>Time: Los Angeles LAkers</h2>
-                            <h2>Titulos: 5</h2>
-                            <h2>Anos: 1980, 1982, 1985, 1987 e 1988</h2>
-                            <h2>MVP: 3</h2>
-                            <h2> MVP das finais: 3</h2>
-                        </div>
-                    </div>  
+                <div class="container">
+                    <div class="card">
+                        <div class="bucks"></div>
+                        <div class="camisa_bucks"></div>
+                    </div>
                 </div>
-                <div class="image_hall_fame">
-                    <div class="fame_image shaq"></div>
-                    <div class="fame_title">Shaquille O'Neal</div>
-                    <div class="text_fame_box">
-                        <div class="text_hall_fame">
-                            <h2>Time: Los Angeles Lakers</h2>
-                            <h2>Titulos: 4</h2>
-                            <h2>Anos: 2000, 2001, 2002, 2006</h2>
-                            <h2>MVP: 1</h2>
-                            <h2> MVP das finais: 3</h2>
-                            <h2>Defensor do ano: 3</h2>
-                        </div>
-                    </div>  
+                <div class="container">
+                    <div class="card">
+                        <div class="knicks"></div>
+                        <div class="camisa_knicks"></div>
+                    </div>
                 </div>
-                <div class="image_hall_fame">
-                    <div class="fame_image bill"></div>
-                    <div class="fame_title">Bill Russell</div>
-                    <div class="text_fame_box">
-                        <div class="text_hall_fame">
-                            <h2>Time: Boston Celtics</h2>
-                            <h2>Titulos: 11</h2>
-                            <h2>Anos: 1957, 1959 a 1966, 1968 e 1969</h2>
-                            <h2>MVP: 5</h2>
-                            <h2>All-Star 12</h2>
-                        </div>
-                    </div>  
+                <div class="container">
+                    <div class="card">
+                        <div class="philadelphia "></div>
+                        <div class="camisa_philadelphia"></div>
+                    </div>
                 </div>
-            </div>
+
+            </section>
+            <section class="next">
+                <img src="./assets/image/bola-de-basquete.png" alt="" class="ball">
+                <a href="#">Próxima página</a>
+            </section>
         </section>
-    </section>
-    <section id="section-budged">
-        <form action="#">
-            <h3>Orçamento de uniforme</h3>
-            <h2 for="radio">Escolha qual time sera o uniforme </h2>
-            <div>
-                <input type="radio" id="rdCavs" name="img_compra" value="Cleveland Cavaliers">
-                <label for="layout-sim">Cleveland</label>
-                <input type="radio" id ="rdMiami" name="img_compra" value="Miami Heat">
-                <label for="layout-nao">Miami</label>
-                <input type="radio" id ="rdDenver" name="img_compra" value="Denver Nuggets">
-                <label for="layout-nao">Denver</label>
-                <input type="radio" id ="rdBoston" name="img_compra" value="Boston Celtics">
-                <label for="layout-nao">Boston</label>
-                <input type="radio" id ="rdGolden" name="img_compra" value="Golden State">
-                <label for="layout-nao">Golden State</label>
-            </div>
-            <h2 for="qtde">Qtde de uniformes</h2>
-            <input type="number" id="qtde" min="1" value="1">
-            <h2 for="js">quer personalizar?</h2>
-            <div>
-                <input type="radio" id="p_sim" name="tipo_camisa" value="Sim">
-                <label for="js">sim</label>
-                <input type="radio" id="p_nao" name="tipo_camisa" value="Não">
-                <label for="js">nao</label>
-            </div>
-            <h2 for="qtde">nome na camisa</h2>
-            <input type="text" id="nome_camisa" disabled=true>
-            <h2 for="prazo">prazo</h2>
-            <input type="range" id="prazo" min="1" max="5">
-            <h2 for="tamanho">tamanho</h2>
-            <input type="range" id="tamanho_input" min="1" max="5">
-            <output><button id="button_compra">Pedir uniforme</button></output>
-        </form>
-        <div id="tes">
-            <h2>Detalhes do Pedido</h2>
-            <div class="image_form"></div>
-            <div id="infos_form">
-                <h3>time: </h3>
-                <p id="time_final">cavs</p>
-                <h3>Qtd de uniformes: </h3>
-                <p id="qtdProd">a</p>
-                <h3>personalisado: </h3>
-                <p id="prod_status">Não</p>
-                <h3>nome na camisa: </h3>
-                <p id="camisa">Gustavo</p>
-                <h3>tempo de entrega: </h3>
-                <p id="tempo_entrega">2 semanas</p>
-                <h3>tamanho: </h3>
-                <p id="tamanho_entrega">GG</p>
-            </div>
-            <div id="valor">
-                <p id="price">Preço: R$0,00</p>
-            </div>
+        <!--historia da nba-->
+        <section id="historia">
+            <section  class="blur">
+                <h1 class="history_title">História da NBA</h1>
+                <!--ESQUERDA-->
+                <h2 class="history_left">A NBA foi fundada em 1946. Em sua primeira versão, a liga era chamada Basketball Association of America (BAA) e contava com 11 times: Boston Celtics, Chicago Stags, Cleveland Rebels, Detroit Falcons, New York Knickerbockers, Philadelphia Warriors, Pittsburgh Ironmen, Providence Steamrollers, St Louis Bombers, Toronto Huskies e Washington Capitols.</h2>
+                <!--DIREITA-->
+                <h2 class="history_right">A primeira partida da história da NBA foi disputada em 1º de novembro de 1946, em Ontario, no Canadá, entre Toronto Huskies e New York Knicks.Já o primeiro campeão da liga foi o Philadelphia Warriors, com vitória sobre o Chicago Stags por 4 a 1 na série decisiva.</h2>
+                <!--ESQUERDA-->
+                <h2 class="history_left">Apenas em 1949, a liga passou a ser chamada National Basketball Association (NBA), depois de a BBA absorver equipes de outra liga de basquete dos Estados Unidos, a National Basketball League (NBL).</h2>
+                <!--DIREITA-->
+                <h2 class="history_right">A nova liga contava com 17 franquias, mas o número de participantes foi reduzido, até chegar a 8 na temporada 1953/1954: New York Knicks, Boston Celtics, Philadelphia Warriors, Minneapolis Lakers, Rochester Royals, Fort Wayne Pistons, Tri-Cities Blackhawks e Syracuse Nationals. Todas essas franquias seguem na NBA, ainda que só New York Knicks e Boston Celtics sigam na mesma sede.</h2>
+                <!--ESQUERDA-->
+                <h2 class="history_left">Durante as décadas seguintes, a NBA passou por fases de expansão, até chegar ao formato atual, com 30 franquias.</h2>
+            </section>
+        </section>
+        <section id="hall_fame">
+            <section class="blur">
+                <h1>Hall of Fame</h1>
+                <div id="fame">
+                    <div class="image_hall_fame">
+                        <div class="fame_image jordan"></div>
+                        <div class="fame_title">Michael Jordan</div>
+                        <div class="text_fame_box">
+                            <div class="text_hall_fame">
+                                <h2>Time: Chicargo Bulls</h2>
+                                <h2>Titulos: 6</h2>
+                                <h2>Anos: 1991, 1992, 1993, 1996, 1997 e 1998</h2>
+                                <h2>MVP: 5</h2>
+                                <h2> MVP das finais: 6</h2>
+                                <h2>Medalhas de ouro: 2</h2>
+                                <h2>Defensor do ano: 1 (1998)</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image_hall_fame">
+                        <div class="fame_image lebron"></div>
+                        <div class="fame_title">Lebron James</div>
+                        <div class="text_fame_box">
+                            <div class="text_hall_fame">
+                                <h2>Time: Cleveland Cavaliers</h2>
+                                <h2>Titulos: 4</h2>
+                                <h2>Anos: 2012,2013,2016 e 2020</h2>
+                                <h2> MVP: 4</h2>
+                                <h2> MVP das Finais: 4</h2>
+                                <h2>Medalhas de ouro: 2</h2>
+                                <h2>Maior Pontuador da liga</h2>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="image_hall_fame">
+                        <div class="fame_image kobe"></div>
+                        <div class="fame_title">Kobe Bryant</div>
+                        <div class="text_fame_box">
+                            <div class="text_hall_fame">
+                                <h2>Time: Los Angeles Lakers</h2>
+                                <h2>Titulos: 5</h2>
+                                <h2>Anos: 2000, 2001, 2002, 2009 e 2010</h2>
+                                <h2>MVP:1</h2>
+                                <h2> MVP das finais: 2 (2009 e 2010)</h2>
+                                <h2>Medalhas de ouro: 2</h2>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="image_hall_fame">
+                        <div class="fame_image kareen"></div>
+                        <div class="fame_title">Kareem Abdul Jabbar</div>
+                        <div class="text_fame_box">
+                            <div class="text_hall_fame">
+                                <h2>Time: Los Angeles LAkers</h2>
+                                <h2>Titulos: 5</h2>
+                                <h2>Anos: 1971,1980, 1982, 1985 e 1987</h2>
+                                <h2>MVP: 6</h2>
+                                <h2> MVP das finais: 2</h2>
+                                <h2>All-Star: 19</h2>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="image_hall_fame">
+                        <div class="fame_image lary"></div>
+                        <div class="fame_title">Lary Bird</div>
+                        <div class="text_fame_box">
+                            <div class="text_hall_fame">
+                                <h2>Time: Boston Celtics</h2>
+                                <h2>Titulos: 3</h2>
+                                <h2>Anos: 1981, 1984 e 1986</h2>
+                                <h2>MVP: 3</h2>
+                                <h2> MVP das finais: 2</h2>
+                                <h2>Medalha de ouro: 1</h2>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="image_hall_fame">
+                        <div class="fame_image magic"></div>
+                        <div class="fame_title">Magic Johnson</div>
+                        <div class="text_fame_box">
+                            <div class="text_hall_fame">
+                                <h2>Time: Los Angeles LAkers</h2>
+                                <h2>Titulos: 5</h2>
+                                <h2>Anos: 1980, 1982, 1985, 1987 e 1988</h2>
+                                <h2>MVP: 3</h2>
+                                <h2> MVP das finais: 3</h2>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="image_hall_fame">
+                        <div class="fame_image shaq"></div>
+                        <div class="fame_title">Shaquille O'Neal</div>
+                        <div class="text_fame_box">
+                            <div class="text_hall_fame">
+                                <h2>Time: Los Angeles Lakers</h2>
+                                <h2>Titulos: 4</h2>
+                                <h2>Anos: 2000, 2001, 2002, 2006</h2>
+                                <h2>MVP: 1</h2>
+                                <h2> MVP das finais: 3</h2>
+                                <h2>Defensor do ano: 3</h2>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="image_hall_fame">
+                        <div class="fame_image bill"></div>
+                        <div class="fame_title">Bill Russell</div>
+                        <div class="text_fame_box">
+                            <div class="text_hall_fame">
+                                <h2>Time: Boston Celtics</h2>
+                                <h2>Titulos: 11</h2>
+                                <h2>Anos: 1957, 1959 a 1966, 1968 e 1969</h2>
+                                <h2>MVP: 5</h2>
+                                <h2>All-Star 12</h2>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="section-budged">
+            <form action="#">
+                <h3>Orçamento de uniforme</h3>
+                <h2 for="radio">Escolha qual time sera o uniforme </h2>
+                <div>
+                    <input type="radio" id="rdCavs" name="img_compra" value="Cleveland Cavaliers">
+                    <label for="layout-sim">Cleveland</label>
+                    <input type="radio" id ="rdMiami" name="img_compra" value="Miami Heat">
+                    <label for="layout-nao">Miami</label>
+                    <input type="radio" id ="rdDenver" name="img_compra" value="Denver Nuggets">
+                    <label for="layout-nao">Denver</label>
+                    <input type="radio" id ="rdBoston" name="img_compra" value="Boston Celtics">
+                    <label for="layout-nao">Boston</label>
+                    <input type="radio" id ="rdGolden" name="img_compra" value="Golden State">
+                    <label for="layout-nao">Golden State</label>
+                </div>
+                <h2 for="qtde">Qtde de uniformes</h2>
+                <input type="number" id="qtde" min="1" value="1">
+                <h2 for="js">quer personalizar?</h2>
+                <div>
+                    <input type="radio" id="p_sim" name="tipo_camisa" value="Sim">
+                    <label for="js">sim</label>
+                    <input type="radio" id="p_nao" name="tipo_camisa" value="Não">
+                    <label for="js">nao</label>
+                </div>
+                <h2 for="qtde">nome na camisa</h2>
+                <input type="text" id="nome_camisa" disabled=true>
+                <h2 for="prazo">prazo</h2>
+                <input type="range" id="prazo" min="1" max="5">
+                <h2 for="tamanho">tamanho</h2>
+                <input type="range" id="tamanho_input" min="1" max="5">
+                <output><button id="button_compra">Pedir uniforme</button></output>
+            </form>
+            <div id="tes">
+                <h2>Detalhes do Pedido</h2>
+                <div class="image_form"></div>
+                <div id="infos_form">
+                    <h3>time: </h3>
+                    <p id="time_final">cavs</p>
+                    <h3>Qtd de uniformes: </h3>
+                    <p id="qtdProd">a</p>
+                    <h3>personalisado: </h3>
+                    <p id="prod_status">Não</p>
+                    <h3>nome na camisa: </h3>
+                    <p id="camisa">Gustavo</p>
+                    <h3>tempo de entrega: </h3>
+                    <p id="tempo_entrega">2 semanas</p>
+                    <h3>tamanho: </h3>
+                    <p id="tamanho_entrega">GG</p>
+                </div>
+                <div id="valor">
+                    <p id="price">Preço: R$0,00</p>
+                </div>
 
 
-                <!--<label for="aa" id="preco">r$100,00</label>-->
-            </div>
-    </section>
+                    <!--<label for="aa" id="preco">r$100,00</label>-->
+                </div>
+        </section>
+    </main>
 <script src="./assets/js/script.js"></script>
 <script src="./assets/js/menu.js"></script>
 </body>

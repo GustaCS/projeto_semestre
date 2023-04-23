@@ -10,7 +10,32 @@
 html{
     font-size: 62.5%;
 }
-
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.spin{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 16px solid #999;
+    border-top: 16px solid #b81616;
+    animation: spin 2s linear infinite;
+}
+.hide{
+    display: none;
+}
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 #menu_principal{
     display: flex;
     justify-content: space-between;
