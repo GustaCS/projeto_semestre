@@ -14,53 +14,23 @@
         <div class="spin"></div>
     </div>
     <main class="hide">
-        <nav>
-            <div id="menu_principal">
-                <div class="linha"></div>
-                <div class="linha"></div>
-                <div class="linha"></div>
-            </div>
-            <ul id="menu_conteudo" class="menu_show">
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-house"></i>
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-basketball"></i>
-                        Times
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-trophy"></i>
-                        hall of fame
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-money-bill"></i>
-                        compra
-                </a>
-            </li>
-            </ul>
-        </nav>
+        
         <header>
-            <h1 >National</h1>
-            <h1 >Basketball</h1>
-            <h1 >Association</h1>
-            <section class="text_hero">
-                <h2>Principal liga de basquetebol profissional da América do Norte.Com 30 franquias a NBA também é considerada a principal liga de basquete do mundo e seus jogadores são os atletas mais bem pagos do  mundo, por salário médio anual.
-                </h2>
-            </section>
-            <h1 class="space times2">Veja os times favoritos de 2023</h1>
-            <section class="next1">
-                <img src="./assets/image/ball.png" alt="" class="ball">
-                <a href="#">Clique Aqui</a>
-            </section>
-            </section>
+            <div id="content_header">
+                <h1 >National</h1>
+                <h1 >Basketball</h1>
+                <h1 >Association</h1>
+                <section class="text_hero">
+                    <h2>Principal liga de basquetebol profissional da América do Norte.Com 30 franquias a NBA também é considerada a principal liga de basquete do mundo e seus jogadores são os atletas mais bem pagos do  mundo, por salário médio anual.
+                    </h2>
+                </section>
+                <h1 class="space times2">Veja os times favoritos de 2023</h1>
+                <section class="next1">
+                    <img src="./assets/image/ball.png" alt="" class="ball">
+                    <a href="#">Clique Aqui</a>
+                </section>
+                </section>
+            </div>
         </header>
         <!--estrutura da tela de timesx-->
         <section id="times">
@@ -257,7 +227,7 @@
             </section>
         </section>
         <section id="section-budged">
-            <form action="#">
+            <form action="#" class="form_orc">
                 <h3>Orçamento de uniforme</h3>
                 <h2 for="radio">Escolha qual time sera o uniforme </h2>
                 <div>
@@ -289,6 +259,7 @@
                 <input type="range" id="tamanho_input" min="1" max="5">
                 <output><button id="button_compra">Pedir uniforme</button></output>
             </form>
+            <!--detalhes do pedido-->
             <div id="tes">
                 <h2>Detalhes do Pedido</h2>
                 <div class="image_form"></div>
@@ -309,9 +280,6 @@
                 <div id="valor">
                     <p id="price">Preço: R$0,00</p>
                 </div>
-
-
-                    <!--<label for="aa" id="preco">r$100,00</label>-->
                 </div>
         </section>
     </main>

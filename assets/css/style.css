@@ -667,3 +667,522 @@ background-image: url('../image/miami.png');
 #button_compra:hover{
     background-color: rgba(167, 86, 86, 0.8)
 }
+/* ---------------responsividade ---------------*/
+@media  screen and (max-width:2560px){
+    #content_header h1{
+        font-size: 10rem;
+    }
+    .text_hero h2{
+        font-size: 3rem;
+    }
+    #content_header .times2{
+        font-size: 5rem;
+    }
+    .next1{
+        height: 12vh;
+    }
+    .next1 a{
+        font-size: 8rem;
+    }
+    .history_left{
+        font-size: 3rem;
+        margin-bottom: 6rem;
+    }
+    .history_right{
+        font-size: 3rem;
+        margin-bottom: 6rem;
+    }
+     #fame{
+        width: 95%;
+    }
+    #section-budged form{
+        height: 60%;
+        font-size: 2rem;
+    }
+    #section-budged h2{
+        font-size: 3rem;
+    }
+    #section-budged form h3{
+        font-size: 3rem;
+    }
+    #section-budged form #qtde{
+        width: 50%;
+        height: 80%;
+        font-size: 3rem;
+    }
+    #section-budged form #nome_camisa{
+        width: 50%;
+        height: 80%;
+        font-size: 3rem;
+    }
+    #section-budged form #prazo{
+        width: 50%;
+    }
+    #section-budged form #tamanho_input{
+        width: 50%;
+    }
+    #tes{
+        height: 60%;
+    }
+    .image_form{
+        background-repeat: no-repeat;
+    }
+}
+
+@media  screen and (max-width:1440px){
+    #content_header h1{
+        font-size: 5rem;
+    }
+    .text_hero h2{
+        font-size: 2rem;
+    }
+    #content_header .times2{
+        font-size: 4rem;
+        padding-top: 2rem;
+    }
+    .next1{
+        height: 14vh;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        width: 80%;
+    }
+    .next1 a{
+        font-size: 6rem;
+    }
+    #imagem_logos{
+        height: 78%;
+    }
+    .history_left{
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+    .history_right{
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+     #fame{
+        width: 95%;
+    }
+    #section-budged form{
+        height: 85%;
+        font-size: 2rem;
+    }
+    #section-budged h2{
+        font-size: 3rem;
+    }
+    #section-budged form h3{
+        font-size: 3rem;
+    }
+    #section-budged form #qtde{
+        width: 50%;
+        height: 80%;
+        font-size: 3rem;
+    }
+    #section-budged form #nome_camisa{
+        width: 50%;
+        height: 80%;
+        font-size: 3rem;
+    }
+    #section-budged form #prazo{
+        width: 50%;
+    }
+    #section-budged form #tamanho_input{
+        width: 50%;
+    }
+    #tes{
+        height: 85%;
+    }
+    #valor{
+        margin-top: 1rem;
+    }
+}
+
+@media  screen and (max-width:1024px){
+    #content_header h1{
+        font-size: 4rem;
+    }
+    .text_hero h2{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+    #content_header .times2{
+        font-size: 3rem;
+        padding-left: 0rem;
+    }
+    .next1{
+        height: 12vh;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        width: 28vw;
+    }
+    .next1 a{
+        font-size: 3.8rem;
+    }
+    .next{
+        padding-left: 55rem;
+    }
+    #imagem_logos{
+        height: 78%;
+    }
+    .history_title{
+        font-size: 6rem;
+    }
+    .history_left{
+        font-size: 1.2rem;
+        padding-left: 60rem;
+        margin-bottom: 1rem;
+    }
+    .history_right{
+        font-size: 1.2rem;
+        padding-right: 60rem;
+        margin-bottom: 1rem;
+    }
+    .text_hall_fame h2{
+        font-size: 1.5rem;
+    }
+     #fame{
+        width: 95%;
+    }
+    #section-budged form{
+        height: 85%;
+        font-size: 1.6rem;
+    }
+    #section-budged h2{
+        font-size: 2rem;
+    }
+    #section-budged form h3{
+        font-size: 2rem;
+    }
+    #section-budged form #qtde{
+        width: 60%;
+        font-size: 2rem;
+    }
+    #section-budged form #nome_camisa{
+        width: 60%;
+        font-size: 2rem;
+    }
+    #section-budged form #prazo{
+        width: 60%;
+    }
+    #section-budged form #tamanho_input{
+        width: 60%;
+    }
+    #tes{
+        height: 85%;
+    }
+    #valor{
+        margin-top: 1rem;
+    }
+    #tes h3{
+        font-size: 1.5rem;
+    }
+    #tes p{
+        font-size: 1.5rem;
+    }
+}
+
+@media  screen and (max-width:768px){
+    #content_header h1{
+        font-size: 4rem;
+    }
+    .text_hero h2{
+        font-size: 1.4rem;
+        padding-top: 1rem;
+    }
+    #content_header .times2{
+        font-size: 2.5rem;
+        padding-left: 0rem;
+    }
+    .next1{
+        height: 10vh;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        width: 28vw;
+    }
+    .next1 a{
+        font-size: 2.5rem;
+    }
+    .next{
+        padding-left: 30rem;
+    }
+    .ball{
+        width: 6vw;
+    }
+    #imagem_logos{
+        width: 90%;
+        height: 78%;
+    }
+    #imagem_logos div{
+        width: 14vw;
+        height: 34vh;
+    }
+    .history_title{
+        font-size: 4rem;
+    }
+    .history_left{
+        font-size: 1.1rem;
+        padding-left: 40rem;
+        margin-bottom: 1rem;
+    }
+    .history_right{
+        font-size: 1.2rem;
+        padding-right: 40rem;
+        margin-bottom: 1rem;
+    }
+    .text_hall_fame h2{
+        font-size: 1.5rem;
+    }
+     #fame{
+        width: 90%;
+        height: 80%
+
+    }
+    .image_hall_fame{
+        width: 18vw;
+        height: 35vh;
+        margin-top: 2rem;
+    }
+    #section-budged form{
+        height: 85%;
+        font-size: 1.2rem;
+    }
+    #section-budged h2{
+        font-size: 1.4rem;
+    }
+    #section-budged form h3{
+        font-size: 1.5rem;
+    }
+    #section-budged form #qtde{
+        width: 70%;
+        font-size: 1.5rem;
+    }
+    #section-budged form #nome_camisa{
+        width: 70%;
+        font-size: 1.5rem;
+    }
+    #section-budged form #prazo{
+        width: 70%;
+    }
+    #section-budged form #tamanho_input{
+        width: 70%;
+    }
+    #button_compra{
+        font-size: 12px;
+    }
+    #tes{
+        height: 85%;
+    }
+    #valor{
+        margin-top: 1rem;
+    }
+    #tes h3{
+        font-size: 1.1rem;
+    }
+    #tes p{
+        font-size: 1.3rem;
+    }
+}
+
+@media  screen and (max-width:426px){
+    #content_header h1{
+        font-size: 4rem;
+    }
+    header::before{
+        background-image:none;
+        background-color: black;
+    }
+    .text_hero{
+        width: 60vw;
+        height: 28vh;
+        margin-left: 2rem;
+    }
+    #content_header .times2{
+        font-size: 2rem;
+        padding-left: 0rem;
+    }
+    #equipe{
+        font-size: 3rem;
+    }
+    .next1{
+        height: 10vh;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        width: 55vw;
+    }
+    .next1 a{
+        font-size: 3rem;
+    }
+    .next{
+        display: none;
+    }
+    .ball{
+        width: 10vw;
+    }
+    #imagem_logos{
+        height: 75vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: stretch;
+    }
+    #imagem_logos div{
+        width: 44vw;
+        height: 34vh;
+    }
+    #times{
+        height: 300vh;
+        background-size: cover;
+        padding-top: 5rem;
+        padding-left: 9.2rem;
+        background-color: black;
+    }
+    .history_title{
+        float:left;
+        margin-left: 6rem;
+    }
+    .history_left{
+        font-size: 1.1rem;
+        padding-left: 4rem;
+        margin-bottom: 1rem;
+    }
+    .history_right{
+        font-size: 1.1rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-bottom: 1rem;
+    }
+    .text_hall_fame h2{
+        font-size: 1.5rem;
+    }
+     #fame{
+        width: 90%;
+        height: 80%
+
+    }
+    #hall_fame{
+        height: 410vh;
+        background-image: none;
+        background-image: linear-gradient(black, red,black);
+    }
+    .blur{
+        height: 410vh;
+        background-color: rgba(0, 0, 0, 0.272);
+        backdrop-filter: blur(3px);
+    }
+    .blur h1{
+        margin-left: 2rem;
+
+    }
+    .image_hall_fame{
+        width: 60vw;
+        height: 45vh;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+    #section-budged{
+        height: 150vh;
+    }
+    #section-budged form{
+        height: 55%;
+        width: 90%;
+        font-size: 1.2rem;
+        float: none;
+    }
+    #section-budged h2{
+        font-size: 1.2rem;
+    }
+
+    #section-budged form h3{
+        font-size: 1.5rem;
+    }
+    #section-budged form #qtde{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    #section-budged form #nome_camisa{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    #section-budged form #prazo{
+        width: 90%;
+    }
+    #section-budged form #tamanho_input{
+        width: 90%;
+    }
+    #tes{
+        height: 40%;
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    #valor{
+        margin-top: 1rem;
+    }
+    #tes h3{
+        font-size: 1.1rem;
+    }
+    #tes p{
+        font-size: 1.3rem;
+    }
+    .image_form{
+        background-repeat: no-repeat;
+    }
+}
+
+@media  screen and (max-width:376px){
+    header{
+        padding-left: 5.2rem;
+    }
+    .next1 a{
+        font-size: 2.8rem;
+    }
+    #times{
+        padding-left:5.2rem;
+    }
+}
+
+@media  screen and (max-width:321px){
+    header{
+        padding-left: 5.2rem;
+    }
+    #content_header h1{
+        font-size: 3rem;
+    }
+    .text_hero{
+        width: 60vw;
+        height: 28vh;
+        margin-left: 2rem;
+    }
+    #content_header .times2{
+        font-size: 2rem;
+        padding-left: 0rem;
+        padding-top: 5rem;
+    }
+    .next1{
+        height: 10vh;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        width: 60vw;
+    }
+    .next1 a{
+        font-size: 2.5rem;
+    }
+    #times{
+        padding-left:5.2rem;
+    }
+    .history_title{
+       font-size:3rem;
+    }
+    #historia{
+        height: 130vh;
+    }
+    #historia .blur{
+        height: 130vh;
+    }
+    .blur h1{
+        font-size: 5rem;
+    }
+
+}
