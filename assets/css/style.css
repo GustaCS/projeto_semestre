@@ -684,13 +684,16 @@ background-image: url('../image/miami.png');
     .next1 a{
         font-size: 8rem;
     }
+    .history_title{
+        font-size: 15rem;
+    }
     .history_left{
-        font-size: 3rem;
-        margin-bottom: 6rem;
+        font-size: 5rem;
+        margin-bottom: 7rem;
     }
     .history_right{
-        font-size: 3rem;
-        margin-bottom: 6rem;
+        font-size: 5rem;
+        margin-bottom: 7rem;
     }
      #fame{
         width: 95%;
@@ -752,12 +755,15 @@ background-image: url('../image/miami.png');
     #imagem_logos{
         height: 78%;
     }
+    .history_title{
+        font-size: 8rem;
+    }
     .history_left{
-        font-size: 1.6rem;
-        margin-bottom: 2rem;
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
     }
     .history_right{
-        font-size: 1.6rem;
+        font-size: 2.5rem;
         margin-bottom: 2rem;
     }
      #fame{
@@ -828,13 +834,13 @@ background-image: url('../image/miami.png');
         font-size: 6rem;
     }
     .history_left{
-        font-size: 1.2rem;
-        padding-left: 60rem;
+        font-size: 2rem;
+        padding-left: 40rem;
         margin-bottom: 1rem;
     }
     .history_right{
-        font-size: 1.2rem;
-        padding-right: 60rem;
+        font-size: 2rem;
+        padding-right: 40rem;
         margin-bottom: 1rem;
     }
     .text_hall_fame h2{
